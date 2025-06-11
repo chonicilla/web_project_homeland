@@ -1,0 +1,29 @@
+.content {
+  max-width: 984px;
+  margin: auto;
+  padding-top: 92px;
+}
+
+.content__title {
+  max-width: 51.875rem;
+  font-size: 3.375rem;
+  font-family: "Inter Black", sans-serif;
+}
+
+.content__info {
+  max-width: 738px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.content__quote {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1.5rem;
+}
+
+.content__quote-author {
+  text-align: end;
+}
