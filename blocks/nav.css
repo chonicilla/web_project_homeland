@@ -10,3 +10,13 @@
 .nav__logo-mobile {
   display: none;
 }
+
+@media screen and (max-width:320px) {
+  .nav__logo-pc {
+    display: none;
+  }
+  .nav__logo-mobile{
+    display: inline;
+  }
+
+}

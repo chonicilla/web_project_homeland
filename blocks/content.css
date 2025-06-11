@@ -27,3 +27,23 @@
 .content__quote-author {
   text-align: end;
 }
+
+@media screen and (max-width:768px) {
+  .content {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .content__title {
+    font-size: 2.813rem;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .content__title {
+    font-size: 2rem;
+  }
+}

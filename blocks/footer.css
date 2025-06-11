@@ -5,3 +5,8 @@
   font-size: 0.875rem;
   padding-bottom: 24px;
 }
+@media screen and (max-width:768px) {
+  .footer__copyright {
+    font-size: 0.875rem;
+  }
+}

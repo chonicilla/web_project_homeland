@@ -1,3 +1,17 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #2a2c2f;
+}
+
+.page {
+  color: white;
+  margin: 0 auto;
+  font-family: "Inter Regular", sans-serif;
+}
+
 .header__hero-section {
   display: flex;
   flex-direction: column;
@@ -21,4 +35,34 @@
 
 .header__description {
   font-size: 1.875rem;
+}
+
+@media screen and (max-width:768px) {
+  .header__text {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .header__title {
+    font-size: 4.688rem;
+  }
+  .header__front-image {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .header__text {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header__title {
+    font-size: 2.5rem;
+  }
+  .header__description{
+    font-size: 1rem;
+    max-width: 100%;
+  }
+  .header__front-image {
+    max-width: 100%;
+  }
 }
