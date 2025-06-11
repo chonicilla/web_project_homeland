@@ -1,0 +1,12 @@
+.nav {
+  display: flex;
+  padding-top: 34px;
+}
+
+.nav__logo {
+  margin: auto;
+}
+
+.nav__logo-mobile {
+  display: none;
+}
