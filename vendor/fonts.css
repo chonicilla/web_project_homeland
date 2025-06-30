@@ -6,3 +6,8 @@
   font-family: "Inter Black";
   src: url(../fonts/Inter-Black.woff) format("woff");
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
