@@ -8,6 +8,7 @@
   max-width: 51.875rem;
   font-size: 3.375rem;
   font-family: "Inter Black", sans-serif;
+  padding-bottom: 30px;
 }
 
 .content__info {
@@ -28,7 +29,7 @@
   text-align: end;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .content__section-information {
     padding-left: 24px;
     padding-right: 24px;
@@ -38,7 +39,7 @@
   }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width: 320px) {
   .content__section-information {
     padding-left: 16px;
     padding-right: 16px;
@@ -47,5 +48,9 @@
 
   .content__title {
     font-size: 2rem;
+  }
+
+  .content__quote {
+    gap: 20px;
   }
 }
