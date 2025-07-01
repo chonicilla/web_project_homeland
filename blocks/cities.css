@@ -27,7 +27,6 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
-  letter-spacing: 12%;
   color: rgba(170, 170, 170, 1);
 }
 
@@ -35,7 +34,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  letter-spacing: 0%;
 }
 
 .cities__head-information {
@@ -53,7 +51,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
-  letter-spacing: 0%;
 }
 
 .cities__portada {

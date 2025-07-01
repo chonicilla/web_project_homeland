@@ -3,7 +3,7 @@
 }
 
 .button {
-  background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+  background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
   width: 289px;
   height: 48px;
   color: white;
@@ -14,7 +14,7 @@
 }
 
 .button:hover {
-  background: linear-gradient(
+  background-image: linear-gradient(
     90deg,
     rgba(2, 120, 254, 0.25) 0%,
     rgba(0, 58, 123, 0.25) 99.98%
