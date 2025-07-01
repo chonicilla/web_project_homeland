@@ -11,13 +11,3 @@ body {
   margin: 0 auto;
   font-family: "Inter Regular", sans-serif;
 }
-
-.shadow {
-  box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.534);
-}
-
-@media screen and (max-width: 320px) {
-  .shadow {
-    box-shadow: none;
-  }
-}
