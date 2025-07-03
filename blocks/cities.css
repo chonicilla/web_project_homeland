@@ -7,6 +7,10 @@
   gap: 80px;
 }
 
+.cities__image:hover {
+  opacity: 0.5;
+}
+
 .cities__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -102,10 +106,6 @@
   .cities__portada {
     margin-left: -16px;
     margin-right: -16px;
-  }
-
-  .cities__br {
-    display: none;
   }
 
   .cities__title {
